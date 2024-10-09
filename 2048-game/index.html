@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>2048 Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <div class="info__main">
+          <h1 class="info__title">2048</h1>
+          <div class="info__text">
+            <h2 class="info__subtitle">Play 2048 Game online</h2>
+            <p class="info__description">Join the numbers and get to the <b class="highlight">2048 tile</b></p>
+          </div>
+        </div>
+        <div class="info__stats">
+          <div class="info__scoreboard">
+            <div class="score-wrapper">
+              <h3>SCORE</h3>
+              <span id="score">0</span>
+            </div>
+            <div class="best-wrapper">
+              <h3>BEST</h3>
+              <span id="best">0</span>
+            </div>
+          </div>
+          <button class="new-game">New Game</button>
+        </div>
+      </div>
+
+      <div class="grid">
+        <!-- <h2 class="result"></h2> -->
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
