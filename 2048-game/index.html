@@ -13,7 +13,10 @@
           <h1 class="info__title">2048</h1>
           <div class="info__text">
             <h2 class="info__subtitle">Play 2048 Game online</h2>
-            <p class="info__description">Join the numbers and get to the <b class="highlight">2048 tile</b></p>
+            <p class="info__description">
+              Join the numbers and get to the
+              <b class="highlight">2048 tile</b>
+            </p>
           </div>
         </div>
         <div class="info__stats">
@@ -27,14 +30,45 @@
               <span id="best">0</span>
             </div>
           </div>
-          <button class="new-game">New Game</button>
+          <button class="new-game"></button>
         </div>
       </div>
 
       <div class="grid">
-        <h2 class="result">You WIN!</h2>
+        <p class="timer">00:00</p>
+        <h2 class="game-result">You WIN!</h2>
+      </div>
+
+      <div class="results-container">
+        <h3>Last best 10 Results</h3>
+        <table class="results-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Score</th>
+              <th>Moves</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody id="results-body"></tbody>
+        </table>
       </div>
     </div>
+
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div>
+          <span class="footer-year">&copy; 2024</span>
+          <a href="https://github.com/javlonbek-tj" class="github-link"
+            >javlonbek-tj</a
+          >
+        </div>
+        <a
+          href="https://rs.school/courses/javascript-preschool-ru"
+          class="rss"
+        ></a>
+      </div>
+    </footer>
 
     <script src="./app.js"></script>
   </body>
